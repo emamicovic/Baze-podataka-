@@ -18,7 +18,7 @@ public class JDBCUtils {
         properties.put("user", "root");
         properties.put("password", "root");
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/person", properties);
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Savetovaliste", properties);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
